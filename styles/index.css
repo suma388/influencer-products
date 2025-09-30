@@ -1,0 +1,278 @@
+
+/* sherd style section */
+.btn-praimary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 24px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+#arrow-icon{
+    filter: brightness(1) invert(1);
+    width: 20px;
+}
+
+/* header style section */
+body{
+    margin: 0 auto;
+    padding: 0%;
+}
+.main-container{
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.head-title{
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: left;
+}
+nav ul li{
+    list-style: none;
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: left;
+}
+header{
+    display: flex;
+    justify-content: space-between;    
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/* hero section styles */
+.hero-section{
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+    /* margin-left:px; */
+}
+.hero-contant{
+}
+.hero-title{
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-size: 3.25rem;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 10px;
+}
+.hero-discription{
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 35px;
+}
+img{
+    max-width: 100%;
+}
+/* populer section styles */
+.populer-section{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.populer-section-title{
+    color: rgba(58, 58, 58, 1);
+
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+}
+.rating i{
+    color: #f4b400;
+}
+.card-title{
+    font-family: Poppins;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 0;
+}
+#number{
+    color: rgba(94, 99, 102, 1);
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+.prize{
+    color: rgba(0, 0, 0, 0.87);
+
+font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.card-discription{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 1.8%;
+text-align: left;
+}
+.populer-section-title{
+    text-align: center;
+}
+.card{
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 30px 0 gainsboro;
+    max-width: 300px;
+    max-height: 476px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    column-gap: normal;
+}
+
+/* feature section styles */
+.feature-img{
+    margin-top: 60px;
+}
+.feature-contant{
+    /* padding: 10px; */
+}
+.feature-section{
+    display: flex;
+    gap: 80px;
+    margin-left: 130px;
+    margin-right: 160px;
+}
+
+.btn-praimary-2{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0px;
+padding: 10px 30px;
+border: none;
+border-radius: 2px;
+text-align: center;
+}
+
+.see-more{
+    color:rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.feature-discription{
+    color: rgba(108, 108, 108, 1);
+
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.feature-title{
+    color: rgba(10, 8, 38, 1);
+
+font-family: Poppins;
+font-size: 2.37rem;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+}
+/* footer section styles */
+.footer-discription{
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+color: white;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.footer-discription-2{
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+color: white;
+margin-bottom: 25px;
+margin-top: 5px;
+}
+
+.footer-title{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0px;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+
+footer{
+    max-height: 240px;
+    max-width:1400px;
+    background: rgba(10, 8, 38, 1);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div{
+    text-align: center;
+}
